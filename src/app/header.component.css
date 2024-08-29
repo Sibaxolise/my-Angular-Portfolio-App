@@ -1,0 +1,65 @@
+/* styles.css or header.component.css */
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1000; /* Ensure the header is on top */
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #444;
+  }
+  
+  .search-input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }  ng  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ff2c07; /* Tomato color on hover */
+  }
+  
+  nav ul li a.active {
+    color: #ff2c07; /* Tomato color for active link */
+  }
+  

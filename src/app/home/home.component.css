@@ -1,0 +1,94 @@
+/* home.component.css */
+
+.home-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .intro {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .intro-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .intro-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #ff6347; /* Tomato color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #e5533d; /* Darker tomato color on hover */
+  }
+  
+  .projects-highlight {
+    padding: 60px 20px;
+  }
+  
+  .projects-highlight h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .projects-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .project-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    text-align: center;
+  }
+  
+  .project-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .view-project {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .connect {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .connect h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .connect p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  

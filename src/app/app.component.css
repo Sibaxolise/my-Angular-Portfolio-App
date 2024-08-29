@@ -1,0 +1,79 @@
+/* styles.css or app.component.css */
+
+.app-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .hero {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #ff2c07; /* Tomato color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff2c07; /* Darker tomato color on hover */
+  }
+  
+  .contact {
+    background-color: #f9f9f9;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 18px;
+  }
+  
+  .contact a {
+    color: #ff2c07; /* Tomato color for the email link */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 5px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
